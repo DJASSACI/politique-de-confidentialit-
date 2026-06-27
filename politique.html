@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Politique de confidentialité - DJASSA CI</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
+    color:#333;
+}
+
+.appbar{
+    background:#fff;
+    padding:12px 16px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    border-bottom:1px solid #ddd;
+    position:sticky;
+    top:0;
+}
+
+.title{
+    font-size:16px;
+    font-weight:bold;
+}
+
+.home-btn{
+    background:none;
+    border:none;
+    color:#ff9800;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.container{
+    padding:16px;
+    max-width:900px;
+    margin:auto;
+}
+
+.center{
+    text-align:center;
+    margin-bottom:24px;
+}
+
+.center i{
+    font-size:60px;
+    color:#ff9800;
+}
+
+.center h1{
+    font-size:18px;
+    margin:10px 0 0;
+}
+
+.center h2{
+    font-size:16px;
+    color:#ff9800;
+    margin:5px 0 0;
+}
+
+.card{
+    background:#fff;
+    border-radius:10px;
+    padding:16px;
+    margin-bottom:16px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.05);
+}
+
+.card-title{
+    display:flex;
+    align-items:center;
+    font-size:18px;
+    font-weight:bold;
+    color:#ff9800;
+}
+
+.card-title i{
+    margin-right:8px;
+}
+
+.divider{
+    height:1px;
+    background:#eee;
+    margin:10px 0;
+}
+
+p{
+    font-size:15px;
+    line-height:1.5;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    margin-bottom:10px;
+    display:flex;
+}
+
+li::before{
+    content:"•";
+    color:#ff9800;
+    margin-right:8px;
+}
+
+.contact{
+    background:#fff3e0;
+}
+
+.email{
+    color:#ff9800;
+    text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="appbar">
+    <div class="title">Politique de confidentialité</div>
+    <button class="home-btn" onclick="window.location.href='/home'">
+        <i class="fas fa-home"></i>
+    </button>
+</div>
+
+<div class="container">
+
+    <div class="center">
+        <i class="fas fa-lock"></i>
+        <h1>🔐 POLITIQUE DE CONFIDENTIALITÉ</h1>
+        <h2>DJASSA CI</h2>
+    </div>
+
+    <div class="card">
+        <div class="card-title"><i class="fas fa-info"></i> 1. Introduction</div>
+        <div class="divider"></div>
+        <p>
+        Djassa CI est une plateforme de commerce électronique permettant aux utilisateurs d'acheter et de vendre des produits entre particuliers en Côte d'Ivoire.<br><br>
+
+        Cette politique de confidentialité explique comment nous collectons, utilisons et protégeons vos données personnelles lorsque vous utilisez notre application et nos services.<br><br>
+
+        ⚠️ NOTE IMPORTANTE : Certaines fonctionnalités de l'application (paiement intégré, géolocalisation, chat interne...) sont momentanément désactivées.
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="card-title"><i class="fas fa-database"></i> 2. Données collectées</div>
+        <div class="divider"></div>
+        <ul>
+            <li>Informations d'inscription : nom, prénom, téléphone, adresse, mot de passe crypté</li>
+            <li>Données de transaction : produits achetés, commandes, paiements (momentanément indisponible)</li>
+            <li>Données de navigation : produits consultés, actions utilisateur</li>
+            <li>Données techniques : IP, navigateur, logs</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <div class="card-title"><i class="fas fa-chart-line"></i> 3. Utilisation des données</div>
+        <div class="divider"></div>
+        <ul>
+            <li>Créer et gérer votre compte utilisateur</li>
+            <li>Permettre achats et ventes</li>
+            <li>Gestion des transactions (momentanément indisponible)</li>
+            <li>Sécurité de la plateforme</li>
+            <li>Amélioration de l'expérience utilisateur</li>
+            <li>Communication entre acheteurs et vendeurs (WhatsApp, appel)</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <div class="card-title"><i class="fas fa-map-marker-alt"></i> 4. Géolocalisation au Premier Plan</div>
+        <div class="divider"></div>
+        <p>
+        L'application accède aux coordonnées GPS uniquement lorsque l'application est active à l'écran et uniquement lors de l'achat (momentanément indisponible).<br><br>
+
+        Le GPS nécessite votre consentement via le système Android/iOS. Aucun suivi en arrière-plan.
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="card-title"><i class="fas fa-share"></i> 5. Partage des données</div>
+        <div class="divider"></div>
+        <ul>
+            <li>Nous ne vendons pas vos données personnelles</li>
+            <li>Avec vendeurs et acheteurs pour transactions</li>
+            <li>Avec services de paiement (momentanément indisponible)</li>
+            <li>Avec autorités si obligation légale</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <div class="card-title"><i class="fas fa-shield-alt"></i> 6. Stockage et sécurité</div>
+        <div class="divider"></div>
+        <p>
+        • Authentification JWT<br>
+        • Cryptage SHA-256<br>
+        • Contrôle des accès<br><br>
+
+        Aucun système n'est totalement sécurisé à 100%.
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="card-title"><i class="fas fa-clock"></i> 7. Durée de conservation</div>
+        <div class="divider"></div>
+        <p>
+        Les données sont conservées tant que votre compte est actif.<br><br>
+        Vous pouvez demander la suppression à tout moment.
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="card-title"><i class="fas fa-user-check"></i> 8. Vos droits</div>
+        <div class="divider"></div>
+        <ul>
+            <li>Accéder à vos données</li>
+            <li>Modifier vos informations</li>
+            <li>demander la Suppression de votre compte</li>
+            <li>Demander la certification de votre compte</li>
+            <li>Refuser certaines utilisations</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <div class="card-title"><i class="fas fa-cookie"></i> 9. Cookies</div>
+        <div class="divider"></div>
+        <p>
+        • Session utilisateur<br>
+        • Amélioration navigation<br>
+        • Analyse utilisation
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="card-title"><i class="fas fa-cloud"></i> 10. Services tiers</div>
+        <div class="divider"></div>
+        <p>
+        • Cloud images (ex: Cloudinary)<br>
+        • Notifications (Firebase)<br>
+        • Hébergement serveur
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="card-title"><i class="fas fa-user"></i> 11. Responsabilité utilisateur</div>
+        <div class="divider"></div>
+        <p>
+        • Mot de passe sécurisé<br>
+        • Contenu publié<br>
+        • Utilisation du compte
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="card-title"><i class="fas fa-sync"></i> 12. Modifications</div>
+        <div class="divider"></div>
+        <p>
+        Cette politique peut être modifiée à tout moment pour améliorer le service.
+        </p>
+    </div>
+
+    <div class="card contact">
+        <div class="card-title"><i class="fas fa-envelope"></i> Contact</div>
+        <div class="divider"></div>
+        <p>Pour toute question :</p>
+        <a class="email" href="mailto:djassaci3@gmail.com">
+            <i class="fas fa-envelope"></i> djassaci3@gmail.com
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>
